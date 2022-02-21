@@ -19,7 +19,7 @@ describe('ProductDetails component', () => {
 
   it('should populate the state', () => {
     component = shallow(<ProductContainer />);
-    expect(component.state().productList.length).toEqual(4);
+    expect(component.state().productList.length).toEqual(7);
   });
 
   it('should have a working method called handleProductClick', () => {
